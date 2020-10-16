@@ -22,3 +22,9 @@ const arrayLike = {
 for (let i = 0; i < arrayLike.length; i++) {
     console.log(arrayLike[i]); //apple banana orange
 }
+
+
+// fill 메서드는 요소를 하나의 값만으로 채울 수 밖에 없다. 하지만 Array.from을 이용하면 두번째 인수로 전달할 콜백함수를 통해 요소 값을 만들면서 배열을 채울 수 있다.
+
+const sequence = (length = 0) => Array.from({ length }, (_, i) => i);
+console.log(sequence(5)); //[ 0, 1, 2, 3, 4 ]
