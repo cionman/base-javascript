@@ -1,5 +1,5 @@
 // 022 Array.prototype.concat
-// 원본 변경되지 않음
+// 원본 유지
 
 const arr1 = [1, 2];
 const arr2 = [3, 4];

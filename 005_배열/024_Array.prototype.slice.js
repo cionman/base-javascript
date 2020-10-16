@@ -1,5 +1,5 @@
 // 024 Array.prototype.slice
-// 원본 변경 되지 않음
+// 원본 유지
 
 /*
     Array.prototype.slice(start, end)
