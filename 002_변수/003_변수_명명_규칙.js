@@ -2,6 +2,7 @@
 1. 사용할 수 있는 문자는 알파벳(a ~ z, A ~ Z), 숫자(0~9), 밑줄(_), 달러기호($)
 2. 첫 글자로 숫자 사용 불가, 알파벳(a ~ z, A ~ Z), 밑줄(_), 달러기호($) 가능
 3. 예약어를 식별자로 사용할 수 없음 (if, for, true, switch, super, break 등등)
+4. 변수는 대소문자 구분을 한다.(ex  firstName FirstName FIRSTNAME 모두 다른변수다)
 
 사용가능 변수명
 - key, sum1, _name, $width, sum_all, sumAll, newValue
@@ -26,6 +27,5 @@ new_name, create_life_time
 4. 상수는 대문자료 표현한다 MAX_SIZE
 5. 논리값을 표현하는 변수이름에는 is를 붙인다. isMouseDown
 6. 생성자 이름을 붙일 때는 파스칼 표기법을 사용한다.
-
  */
 
