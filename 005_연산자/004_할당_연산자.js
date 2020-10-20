@@ -10,6 +10,7 @@
   *= : x *= 5 : x = x * 5
   /= : x /= 5 : x = x / 5
   %= : x %= 5 : x = x % 5
+  **= : x **= 5 : x= x ** 5
  */
 
 var x;
@@ -31,6 +32,10 @@ console.log(x); // 10
 
 x %= 5;
 console.log(x); // 0
+
+x = 2;
+x **= 5;
+console.log(x); // 32
 
 var str = 'My name is ';
 str += 'Lee';
